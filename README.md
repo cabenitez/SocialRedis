@@ -1,4 +1,4 @@
 SocialRedis
 ===========
 
-This is an example about social network created with NodeJS and Redis and Socket.io
+This is an example about social network created with NodeJS, Redis and Socket.io
