@@ -1,0 +1,41 @@
+<!-- inluimos el archivo header.ejs -->
+<% include header %>
+
+  <header>
+    <h1><%= titulo %></h1>
+    <!-- formulario de login -->
+    <div class="login marco blanco">
+       <form id="loginFrm" action="">
+        <input type="text" name="usuario" value="" placeholder="Usuario"/>
+        <input type="password" name="clave" value="" placeholder="Clave"/>
+        <input type="submit" id="loginBtn" value="Entrar" />
+      </form>
+    </div>
+  </header>
+  <!-- logos de Redis y Node -->
+  <section class="tecnologias">
+    <img src="img/bg_redis.png" alt="Redis"/>
+    <img src="img/bg_nodejs.png" alt="Node.js"/>
+  </section>   
+  <!-- formulario de registro -->
+  <section class="columna_derecha">
+    <article class="registro marco blanco">
+      <h2>Usuario Nuevo:</h2>
+      <div>
+        <form id="nuevoFrm" action="">
+          <input type="text" name="nombre"   value="" placeholder="Nombre" />
+          <input type="text" name="apellido" value="" placeholder="Apellido" />
+          <input type="text" name="usuario"  value="" placeholder="Usuario" />
+          <input type="password" name="clave" value="" placeholder="Clave" />
+          <input type="text" name="correo"   value="" placeholder="Correo" />
+          <input type="submit" id="nuevoBtn" value="Registrar" />
+        </form>
+      </div>
+    </article>
+    <!-- elemento para mostrar los usuarios registrados -->
+    <aside class="usuarios_registrados marco blanco">
+      <p>Ya se registraron <span id="totalUsuarios">0</span> usuarios</p>
+    </aside> 
+  </section>
+<!-- inluimos el archivo footer.ejs -->
+<% include footer %>

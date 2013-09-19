@@ -1,0 +1,56 @@
+<!-- inluimos el archivo header.ejs -->
+<% include header %>
+
+  <header>
+    <h1><%= titulo %></h1>
+    <!-- formulario de busqeda -->
+    <div id="buscador">
+      <input type="text" id="tBuscar" placeholder="Buscar..." class="marco" />
+      <input type="submit" id="bBuscar" value="Buscar" />
+    </div>
+
+    <!-- elemento para mostrar las notificaciones -->
+    <div id="notificacion">
+      <span class="usuario" ><%= usuario.nombre %> <%= usuario.apellido %></span>
+      <span class="contador">
+        <span id="valorContador">0</span>
+      </span>
+      
+      <!-- elemento para mostrar la lista de solicitudes -->
+      <ul id="solicitudes" class="marco blanco"></ul>
+    </div>
+
+    <a href="/salir" class="bSalir">Salir</a>
+  </header>
+
+  <!-- columna para la lista de amigos -->
+  <aside class="usuarios marco blanco">
+    <span>Podes chatear con:</span>
+    <div id="usuariosAmigos" class="usuariosLista">
+      <p>No hay amigos conectados...</p>
+    </div>
+  </aside>
+
+  <!-- formulario para crear y mostrar los post -->
+  <section class="contenido">
+    <article class="bloque">
+        <form id="postFrm" action="">
+          <textarea name="post" placeholder="Contale al mundo..." class="marco"></textarea>
+          <input type="submit" id="postBtn" value="Postear" />
+        </form>
+    </article>
+    <div id="posts"></div>
+  </section>
+
+  <!-- columna para usuarios nuevos -->
+  <aside class="usuarios marco blanco">
+    <span>Podes ser amigo de:</span>
+    <div id="usuariosNuevos" class="usuariosLista">
+      <p>No hay usuarios nuevos...</p>
+    </div>
+  </aside>
+
+  <!-- contenedor de las ventanas de chat -->
+  <aside class="chat"></aside>
+<!-- inluimos el archivo footer.ejs -->
+<% include footer %>

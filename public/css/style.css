@@ -1,0 +1,109 @@
+body{background: url("/img/bg.jpg") repeat scroll 0 0 transparent;  color: #2F2F2F;  font: 12px/1.5em Arial,Helvetica,sans-serif;  margin: 0;  padding: 0;  text-align: center;  color: #444444;}
+
+header{height: 50px;  padding: 20px 5px;}
+
+header #buscador{width: 370px;  float: left;}
+
+header #buscador #tBuscar{width: 270px;}
+
+header #buscador #bBuscar{height: 28px;}
+
+header #notificacion{float: right;  padding: 9px 0 0;  width: 203px;}
+
+header #notificacion #usr{float: left;  font-size: 14px;  height: 100%;  margin: 5px 0;  width: 150px;}
+
+h1{background: url("/img/icon-profile.png") no-repeat scroll left top transparent;  color: #666;  float: left;  font-size: 29px;  line-height: 55px;  margin: 0;  padding: 0 10px 0 42px;  text-align: left;  text-shadow: 1px 1px 0 #FFF;  width: 175px;}
+
+input[type="text"],
+
+input[type="password"]{margin: 7px 0 0;}
+
+a{color: #444444;  display: block;  text-decoration: none;}
+
+nav{clear: both;  float: left;  width: 140px;  padding: 0 10px;}
+
+nav ul{list-style: none outside none; padding: 0;  margin: 0;}
+
+nav ul li{border: 1px solid transparent;  cursor: pointer;  font-size: 15px;  height: 100%;  line-height: 46px;  padding: 0;  width: auto;}
+
+nav ul li:hover,nav ul .active {background-color: #EEEEEE;  background-image: -moz-linear-gradient(center top , #EEEEEE, #E0E0E0);  border: 1px solid #CCCCCC;  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;  color: #333333;}
+
+input[type="submit"]{background: url("/img/bg-verde.png") repeat-x left top #47C516;  border: 1px solid #149E1F;  border-radius: 2px 2px 2px 2px;  color: #FFFFFF;  padding: 5px;  text-align: center;}
+
+footer{clear: both;  height: 80px;  padding: 10px;  text-align: center;}
+
+footer p{margin: 0 auto;  padding: 30px 0;  width: 300px;}
+
+.contenedor{background: url("/img/bg-sombras.png") no-repeat scroll center top transparent;  margin: 0 auto;  min-height: 600px;  width: 850px;}
+
+.marco{border: 1px solid #CCCCCC;  border-radius: 5px;  -moz-border-radius:5px;  -webkit-border-radius: 5px;  padding: 7px;}
+
+.marco.blanco{background-color: #FFFFFF;}
+
+.marco.gris{background-color: #F8F8F8;}
+
+.marco.celeste{background-color: #BAD9F1;}
+
+.login{float: right;  padding: 5px 15px;  text-align: right;  width: 401px;  font-size: 15px;}
+
+.tecnologias {float: left;  height: 400px;  width: 400px;}
+
+.tecnologias img{margin: 20px 0;}
+
+.registro{min-height: 215px;  padding: 5px 15px;}
+
+.registro input{display: block;  width: 395px;}
+
+.error {background: url("/img/icono_error.gif") no-repeat 10px 50% #FAEBE7;  border: 1px solid #F16048;  color: #DF280A;  padding: 3px 3px 3px 30px;  text-align: justify;}
+
+.columna_derecha{float: right;  margin: 0 5px;  width: 431px;}
+
+.usuarios_registrados{font-size: 15px;  margin: 15px 0;  padding: 5px 15px;  width: 399px;}
+
+.usuario{text-align: right;  min-width: 140px;  float: left;  padding: 11px 10px 0;  font-size: 14px;}
+
+.contenido{width: 438px;  float: left;}
+
+.usuarios{float: left;  margin: 0 5px;  width: 180px;  text-align: left;}
+
+.usuarios span{font-size: 13px;  font-weight: bold;}
+
+#notificacion ul, .usuarios ul{margin: 0;  min-height: 40px;  list-style: none;  padding: 0;}
+
+#notificacion ul li, .usuarios ul li{border-bottom: 1px solid #CCCCCC;  margin: 10px 0;  cursor: pointer;  padding: 5px;}
+
+#notificacion ul li:hover, .usuarios ul li:hover{background-color: #47C516;}
+
+.chat{clear: both;  height: 181px;  bottom: 0;  margin: 0 5px;  padding: 0 3px;  width: 828px;  text-align: left;  position: absolute;  z-index: 1000;}
+
+.ventana{margin: 0 2px;  float: left;  width: 186px;}
+
+.ventana input[type="text"]{margin: 0 2px;  width: 179px;}
+
+.usuariosLista{min-height: 400px;}
+
+.avatar{float: left;  width: 30px;  height: 30px;}
+
+.avatar img{width: 30px;  height: 30px;}
+
+.bloque{text-align: left;  margin-bottom: 5px;  float: left;  width: 421px;}
+
+.bloque .header{line-height: 45px;  height: 30px;  border-bottom: 1px solid #CCC;  text-align: left;  margin-bottom: 10px;}
+
+.bloque .header img{margin-right: 10px;  float: left;  width: 30px;  height: 30px;}
+
+.bloque .header .bloque_usuario{font-weight: bold;  margin: 0 5px 0 0;}
+
+.bloque .header .bloque_fecha{float: right;}
+
+.contador{background: url("/img/bg-azul.png") repeat-x left top #53AFEC; border: 1px solid #315EA8;  border-radius: 2px 2px 2px 2px;  color: #FFFFFF;  padding: 5px;  text-align: center; display: block;  float: left;  font-size: 18px;  font-weight: bold;  height: 17px;  width: 30px;}
+
+#postFrm{width: 436px;}
+
+#postFrm textarea {display: block;  height: 63px;  width: 422px;}
+
+#postFrm input[type="submit"]{margin-right: 0;  float: right;}
+
+#solicitudes{height: 200px;  width: 200px;  background-color: #F8F8F8;  position: absolute;  z-index: 100;  display: none;  top: 64px;}
+
+.bSalir{display: inline-block;  position: relative;  cursor: pointer;  text-shadow: 1px 1px 0 #FFF;  top: -57px;  width: 81px;  right: -106px;}
